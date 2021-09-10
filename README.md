@@ -29,6 +29,10 @@ Using this application you will be able to:
     $ pipenv shell
     $ pipenv install
     
+### Create or copy and modify settings file
+
+$ cp training_tracker/settings.template.py training_tracker/settings.py 
+
 ### Migrate models and create superuser
 
     $ pipenv run python manage.py migrate
